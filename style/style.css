@@ -1,0 +1,26 @@
+body{
+    background: url(../images/weather-story-june.webp);
+   background-position: top center;
+    
+    background-size: inherit;
+
+}
+.fs{
+    font-size: 90px;
+    color: rgb(255, 238, 0);
+}
+.mars{
+    margin-top:200px ;
+}
+.ads{
+    height: 70px;
+    border-radius: 50px 0 50px 0;
+    font-size: 30px;
+    transition: all 0.3s linear;
+}
+.ads:focus{
+    height: 70px;
+    border-radius:0 50px 0 50px ;
+    font-size: 30px;
+    transition: all 0.3s linear;
+}
